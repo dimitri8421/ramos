@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Demarus;
+    src: url(/assets/fonts/DEMARUS.otf);
+}
+body {
+    background-color: #080808;
+    font-family: Demarus;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.3rem;
+    line-height: 3;
+}
+h1 {
+    font-size: 7rem;
+    height: 7rem;
+}
+
+h2 {
+    font-size: 5rem;
+    height: 5rem;
+
+    /* height: 5rem; */
+}
+h3 {
+    /* height: 1.75rem; */
+    height: 1.75rem;
+
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+.pt-10 {
+    padding-top: 10rem;
+}
+
+#imgClient {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    background-image: url(/assets/img/ramos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backround {
+    height: 48rem;
+    width: 34rem;
+    background-image: url(/assets/img/moca-tatuada.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    filter: brightness(0.5);
+
+}
+
+.fundo-blur {
+    background-color: #ffb70018;
+    width: 32rem;
+    /* height: 8rem !important; */
+    border-radius: 14px;
+    backdrop-filter: blur(23px);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.205);
+    transition: .7s transform;
+}
+
+.fundo-blur:hover {
+    transform: scale(1.2);
+}
+.img-social {
+    width: 8rem;
+    height: 8rem;
+    top: -2rem;
+    right: -1rem;
+}
+
+.imgs > div {
+    display: flex;
+    align-items: flex-end;
+}
+#loading {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffb700;
+    z-index: 99999;
+}
+
+/* Loafing */
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgb(255, 255, 255) transparent;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  /* Loafing */
+@media (max-width: 767px) {
+    .fundo-blur {
+        width: 100% !important;
+    }
+
+    .backround {
+        height: 34rem;
+        width: 24rem;
+    }
+
+    .img-social {
+        width: 5rem;
+        height: 5rem;
+        right: 1rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+
+    h1, h2, h3 {
+        line-height: 1 !important;
+        height: auto !important;
+    }
+}
