@@ -51,7 +51,7 @@ a {
 .backround {
     height: 48rem;
     width: 34rem;
-    background-image: url(/../img/moca-tatuada.png);
+    background-image: url(../img/moca-tatuada.png);
     background-size: cover;
     background-position: center;
     position: absolute;
