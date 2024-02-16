@@ -16,13 +16,13 @@ function criaCards() {
             "image": "message.png"
         },
         {
-            "link": "https://wa.me/message/QTW6RQXYYNAIA1?fbclid=PAAaYxPXVY2iuQwgpijPvE3uFtY_yvgwYzCS-DiYTRSNhJJ4oiNcdlYCD8iAA",
+            "link": "https://www.instagram.com/ramostattoo017",
             "titulo":"Instagram",
             "text":"Acesse agora",
             "image": "instagram.png"
         },
         {
-            "link": "https://wa.me/message/QTW6RQXYYNAIA1?fbclid=PAAaYxPXVY2iuQwgpijPvE3uFtY_yvgwYzCS-DiYTRSNhJJ4oiNcdlYCD8iAA",
+            "link": "https://www.facebook.com/ramostattoo017vha",
             "titulo":"Facebook",
             "text":"Acesse agora",
             "image": "facebook.png"
