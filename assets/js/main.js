@@ -12,7 +12,7 @@ function criaCards() {
         {
             "link": "https://wa.me/message/QTW6RQXYYNAIA1?fbclid=PAAaYxPXVY2iuQwgpijPvE3uFtY_yvgwYzCS-DiYTRSNhJJ4oiNcdlYCD8iAA",
             "titulo":"Fale comigo",
-            "text":"Click aqui",
+            "text":"Clique aqui",
             "image": "message.png"
         },
         {
