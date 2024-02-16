@@ -1,6 +1,6 @@
 @font-face {
     font-family: Demarus;
-    src: url(/assets/fonts/DEMARUS.otf);
+    src: url(../fonts/DEMARUS.otf);
 }
 body {
     background-color: #080808;
@@ -43,7 +43,7 @@ a {
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
-    background-image: url(/assets/img/ramos.jpg);
+    background-image: url(../img/ramos.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ a {
 .backround {
     height: 48rem;
     width: 34rem;
-    background-image: url(/assets/img/moca-tatuada.png);
+    background-image: url(/../img/moca-tatuada.png);
     background-size: cover;
     background-position: center;
     position: absolute;
