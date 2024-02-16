@@ -64,7 +64,7 @@ a {
     width: 32rem;
     /* height: 8rem !important; */
     border-radius: 14px;
-    backdrop-filter: blur(23px);
+    backdrop-filter: blur(6px);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.205);
     transition: .7s transform;
 }
